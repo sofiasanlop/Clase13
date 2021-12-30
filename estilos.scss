@@ -1,0 +1,44 @@
+$black: #000;
+
+h1{
+    border: 1px solid #333;
+    font-size: 25px;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    a{
+        text-decoration: none;
+        /* background-color: greenyellow; */
+        color: $black;
+    }
+}
+
+nav{
+    height: 80px;
+    width: 80%;
+    float:right;
+    ul{
+        list-style: none;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: left;
+    }
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    white-space: pre;
+    li {
+        list-style: none;
+        text-align: center;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
